@@ -1,16 +1,19 @@
 Outlines:
 - prepare the data
 - read more about Cosmic String Cusps
-- Generate glitch close to CSC shape
+- Generate Cusps signal (from scratch by theoretical part)
+- Generate glitch close to CSC shape or just noise
 - Save the sample
 
 What have done:
--
--
+- generate cusps model
+- normlised
+- injected into the noise 
 
 Need to check:
-- 
-- 
+- if the Cusps Def. is correct or need modify 
+- if start the CNN with time domain and start train on small samples
+- if glitch better idea than the noise
 
 Next Week plan:
 - Start Build the Deep Learning method
