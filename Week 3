@@ -1,0 +1,25 @@
+Outlines:
+- modify current code to properly normalize cosmic string signal using the standard SNR definition
+(frequency-domain, PSD-weighted), as the supervisor suggested
+- Read more about CNN architecture works on Time-domain wave-model
+- Generate many different “flavors” of cusp signals (Have different amplitudes and frequency cutoffs)
+- Save the sample 
+- start training
+- Analyse the result
+
+What have done:
+- The signal has exactly the expected matched-filter SNR.
+- Generate the sample Vs Noise (~6000 split 50% signal with noise and 50% noise)
+- Start training 
+- 
+
+Need to check:
+- if the CNN architecture need to fit or close to MLy 
+- if need read deeply about MLy early better? or just focus on mine and then compare!
+- 
+
+Next Week plan:
+- Enhance the Deep Learning method by increase the number of samples ~ 100k
+- Read more about it 
+- Try to train 
+- Analyse & Write about the result 
