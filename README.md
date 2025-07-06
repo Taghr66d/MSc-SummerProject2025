@@ -1,4 +1,4 @@
-# MSc-SummerProject2025
+# MSc-SummerProject2025 (Taghreed Bahlool)
 ## Project Overview:
 - This project focuses on building and evaluating a machine learning model specifically a Convolutional Neural Network (CNN) to classify gravitational wave signals from cosmic string cusps against noise and blip glitches. The goal is to distinguish astrophysical signals (cusp-like) from non-astrophysical events using custom generated waveform data, synthetic noise, and EMILY, a real-world LIGO data analysis pipeline.
 
