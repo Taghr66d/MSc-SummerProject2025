@@ -1,22 +1,22 @@
 # MSc-SummerProject2025
-##Project Overview:
-This project focuses on building and evaluating a machine learning model specifically a Convolutional Neural Network (CNN) to classify gravitational wave signals from cosmic string cusps against noise and blip glitches. The goal is to distinguish astrophysical signals (cusp-like) from non-astrophysical events using custom generated waveform data, synthetic noise, and EMILY, a real-world LIGO data analysis pipeline.
+## Project Overview:
+- This project focuses on building and evaluating a machine learning model specifically a Convolutional Neural Network (CNN) to classify gravitational wave signals from cosmic string cusps against noise and blip glitches. The goal is to distinguish astrophysical signals (cusp-like) from non-astrophysical events using custom generated waveform data, synthetic noise, and EMILY, a real-world LIGO data analysis pipeline.
 
-##Objectives:
+## Objectives:
 - Generate realistic cusp waveforms using analytical models.
 - Inject generated waveforms into Gaussian noise to simulate LIGO-like data.
 - Train a CNN classifier to distinguish between: Cusp signals vs. Noise / Cusp signals vs. Blip glitches.
 - Integrate and test the model on EMILY's trigger outputs.
 - Evaluate model performance with accuracy, loss, and false alarm rate.
 
-##Tools & Frameworks:
+## Tools & Frameworks:
 - Python, NumPy, Matplotlib
 - TensorFlow / Keras for CNN modeling
 - EMILY pipeline for injection and testing on real-like data
 - Google Colab for training and prototyping
 - LIGO Cluster (SSH) for scalable training
 
-##Methodology:
+## Methodology:
 1. Waveform Generation: use formulae from literature to simulate cusp signals.
    - Parameters:
       - Amplitude sampled uniformly
