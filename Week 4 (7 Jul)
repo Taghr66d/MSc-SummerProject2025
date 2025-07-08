@@ -5,14 +5,13 @@ Outlines:
 - Analyse the result
 
 What have done:
-- The signal has exactly the expected matched-filter SNR.
 - Generate the cusp Vs glitch (each 10,000 (70% training - 15% Validation - 15% Test)
 - Start training CNN model
 - 
 
 Need to check:
-- 
-- 
+- Check if the sample rate for both signal and noise = 1024? 
+- Ligo grid access!
 - 
 
 Next Week plan:
