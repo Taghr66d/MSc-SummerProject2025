@@ -20,8 +20,8 @@
 1. Waveform Generation: use formulae from literature to simulate cusp signals.
    - Parameters:
       - Amplitude sampled uniformly
-      - High-frequency cutoffs between 30–500 Hz
-   - Inject into Gaussian noise using generator() from EMILY.
+      - High-frequency cutoffs between 20–500 Hz
+   - Inject into Gaussian noise using ``aLIGOZeroDetHighPower``.
      
 2. CNN Model Training:
    - Input: 1-second timeseries sampled at 1024 Hz
