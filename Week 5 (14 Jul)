@@ -13,7 +13,7 @@ SNR 5 satges from 5-100 as curriculum learning.
 Need to check:
 - The accurecy obtain 100% --> overvitting or easy noise need to increase or apply real noise
 - Ligo grid access!
-- duscusing other decomposition methods like EMD with supervisor!
+- Discussing other decomposition methods like EMD with supervisor!
 
 Next Week's plan:
 - Enhance the Deep Learning method by increase the number of samples ~ 100k
