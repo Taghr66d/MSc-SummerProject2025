@@ -1,0 +1,21 @@
+Outlines:
+- Try to generate cusp signals 60k with curriculum learning (SNR 5-100)
+- Generate many blip glitch samples in the same way.
+- Start training on CNN (Ligo grid if need it)
+- Analyse the result
+
+What have done:
+- Generate the cusp Vs glitch (each 60,000 (70% training - 15% Validation - 15% Test)
+SNR 5 satges from 5-100 as curriculum learning.
+- Start training the CNN model (obtain accurecy 100%) (need to check overvitting)
+- Read more about MLy pipline
+
+Need to check:
+- The accurecy obtain 100% --> overvitting or easy noise need to increase or apply real noise
+- Ligo grid access!
+- duscusing other decomposition methods like EMD with supervisor!
+
+Next Week's plan:
+- Enhance the Deep Learning method by increase the number of samples ~ 100k
+- Try different methods.. (supervisor suggestions) 
+- more challenge training --> real noise 
