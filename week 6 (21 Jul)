@@ -6,11 +6,16 @@ Outlines:
 - start MLy injection and test with simulation noise 
 
 What have done:
+- Accurecy on Ligo Simulation noise 99% with (10k samples for each class and SNR 5-20)
 - Test on real noise obtain 50% ( need to fine tune more)
+- Anlaysis the result (the signal cusp vs blip features: power, rms, peak, zero_crossings, centroid, bandwidth) to 
+  build model if the curent model fail on real noise. 
 - Test SNR 5-50 with enhance the CNN model with real noise (curriculum leraning)
 
 Need to check:
 - What have been done so far up to week 5 with the supervisor.
+- 
 
 Next Week's plan:
+- 
 - 
