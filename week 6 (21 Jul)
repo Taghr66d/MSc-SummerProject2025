@@ -1,12 +1,13 @@
 Outlines:
 - Discuss the progress with the supervisor.
-- Try other method with apply SNR 5-25 
+- Try other method with apply SNR 5-20 
 - Try harder learning (real noise)
 - Analyse the result
 - start MLy injection and test with simulation noise 
 
 What have done:
-- Test SNR 5-25 with enhance the CNN model
+- Test on real noise obtain 50% ( need to fine tune more)
+- Test SNR 5-50 with enhance the CNN model with real noise (curriculum leraning)
 
 Need to check:
 - What have been done so far up to week 5 with the supervisor.
